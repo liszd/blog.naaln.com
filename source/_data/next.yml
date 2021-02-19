@@ -110,8 +110,8 @@ theme: next
 deploy:
   type: upyun
   bucket: naaln-blog
-  operator:
-  password:
+  operator: 
+  password: 
   try_times: 5
   ignore_path_re:
     dir: null
@@ -216,7 +216,7 @@ footer:
   # Icon between year and copyright info.
   icon:
     # Icon name in Font Awesome. See: https://fontawesome.com/icons
-    name: fas fa-heart
+    name: fa fa-heart
     # If you want to animate the icon, set it to true.
     animated: false
     # Change the color of icon, using Hex Code.
@@ -275,18 +275,18 @@ darkmode: true
 # When running the site in a subdirectory (e.g. yoursite.com/blog), remove the leading slash from link value (/archives -> archives).
 # External url should start with http:// or https://
 menu:
-  home: / || fas fa-home
-  product: /categories/product/ || fas fa-product-hunt
-  technology: /categories/technology/ || fas fa-code
-  jottings: /categories/jottings/ || fas fa-pencil-square
-  tour: /categories/tour/ || fas fa-globe
-  #about: /about/ || fas fa-user
-  #tags: /tags/ || fas fa-tags
-  #categories: /categories/ || fas fa-th
-  archives: /archives/ || fas fa-archive
-  #schedule: /schedule/ || fas fa-calendar
-  #sitemap: /sitemap.xml || fas fa-sitemap
-  #commonweal: /404/ || fas fa-heartbeat
+  home: / || fa fa-home
+  product: /categories/product/ || fa fa-product-hunt
+  technology: /categories/technology/ || fa fa-code
+  jottings: /categories/jottings/ || fa fa-pencil-square
+  tour: /categories/tour/ || fa fa-globe
+  #about: /about/ || fa fa-user
+  #tags: /tags/ || fa fa-tags
+  #categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  #schedule: /schedule/ || fa fa-calendar
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -359,7 +359,7 @@ social_icons:
 
 # Blog rolls
 links_settings:
-  icon: fas fa-link
+  icon: fa fa-link
   title: Links
   # Available values: block | inline
   layout: block
@@ -387,7 +387,7 @@ chat:
   enable: false
   #service: chatra
   #service: tidio
-  icon: fas fa-comment # Icon name in Font Awesome, set false to disable icon.
+  icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
 
 
@@ -449,7 +449,7 @@ follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  #RSS: /atom.xml || fas fa-rss
+  #RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -885,11 +885,11 @@ firestore:
 busuanzi_count:
   enable: true
   total_visitors: true
-  total_visitors_icon: fas fa-user
+  total_visitors_icon: fa fa-user
   total_views: true
-  total_views_icon: fas fa-eye
+  total_views_icon: fa fa-eye
   post_views: true
-  post_views_icon: fas fa-eye
+  post_views_icon: fa fa-eye
 
 
 # ---------------------------------------------------------------
@@ -1060,7 +1060,7 @@ vendors:
   # Internal version: 5.13.0
   # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css
-  fontawesome:
+  fontawesome: //cdn.bootcdn.net/ajax/libs/font-awesome/5.15.2/css/all.min.css
 
   # MathJax
   # mathjax: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
