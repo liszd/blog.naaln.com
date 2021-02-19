@@ -276,9 +276,9 @@ darkmode: true
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  product: /categories/product/ || fa fa-product-hunt
+  product: /categories/product/ || fa fa-palette
   technology: /categories/technology/ || fa fa-code
-  jottings: /categories/jottings/ || fa fa-pencil-square
+  jottings: /categories/jottings/ || fa fa-pencil-ruler
   tour: /categories/tour/ || fa fa-globe
   #about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
